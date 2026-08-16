@@ -19,6 +19,7 @@ ignoreErrors = ["error-disable-taxonomy"]
   description = "Writing by Brian Herbert."
   title = "R&D & R&R"
   enablePostNavigator = true
+  hideMadeWithLine = true
 
 [markup]
   [markup.highlight]

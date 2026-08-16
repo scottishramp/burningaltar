@@ -1,0 +1,32 @@
+baseURL = "https://burningaltar.com/"
+theme = "hugo-bearblog"
+title = "R&D & R&R"
+author = "Brian Herbert"
+copyright = "Copyright © 2025–2026, Brian Herbert."
+locale = "en-US"
+enableRobotsTXT = true
+timeZone = "America/Chicago"
+
+# Bear-like URLs: posts live at /:slug/
+disableKinds = ["taxonomy"]
+ignoreErrors = ["error-disable-taxonomy"]
+
+[permalinks]
+  blog = "/:slug/"
+  tags = "/blog/:slug"
+
+[params]
+  description = "Writing by Brian Herbert."
+  title = "R&D & R&R"
+  enablePostNavigator = true
+
+[markup]
+  [markup.highlight]
+    style = "friendly"
+    lineNos = true
+    lineNumbersInTable = false
+    codeFences = true
+
+[caches]
+  [caches.images]
+    dir = ":cacheDir/images"

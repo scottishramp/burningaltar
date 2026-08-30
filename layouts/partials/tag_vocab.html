@@ -1,0 +1,5 @@
+<p class="tag-vocab">
+  {{ range site.Params.tagVocab }}
+  <a href="{{ printf "/blog/%s/" .slug | relURL }}">#{{ .name }}</a>
+  {{ end }}
+</p>

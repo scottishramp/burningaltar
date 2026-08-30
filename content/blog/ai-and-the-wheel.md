@@ -2,7 +2,7 @@
 title = "Why AI is the biggest deal since the wheel"
 date = 2025-02-23
 slug = "ai-and-the-wheel"
-tags = ["ai"]
+tags = ["ai", "philosophy"]
 +++
 
 _In the Hypothetical Museum of Human Activity is a display for every artifact of humanity - every work of art, every object of worship, every toy and tool. Hypothetical archeologists and anthropologists have united to painstakingly unearth, restore, and classify pieces of pottery, carved idols, cave paintings, etc._

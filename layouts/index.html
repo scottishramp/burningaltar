@@ -1,5 +1,6 @@
 {{ define "main" }}
 {{ .Content }}
+{{ partial "tag_vocab.html" . }}
 {{ range where .Site.RegularPages "Section" "blog" }}
 <article class="home-post">
   <h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>

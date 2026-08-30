@@ -21,6 +21,24 @@ ignoreErrors = ["error-disable-taxonomy"]
   enablePostNavigator = true
   hideMadeWithLine = true
 
+# Closed tag vocabulary. Add a tag here and under content/tags/<slug>/
+# before using it on a post. Do not reuse these slugs as post slugs.
+[[params.tagVocab]]
+  slug = "ai"
+  name = "AI"
+[[params.tagVocab]]
+  slug = "family"
+  name = "Family"
+[[params.tagVocab]]
+  slug = "health"
+  name = "Health"
+[[params.tagVocab]]
+  slug = "philosophy"
+  name = "Philosophy"
+[[params.tagVocab]]
+  slug = "theology"
+  name = "Theology"
+
 [markup]
   [markup.highlight]
     style = "friendly"
